@@ -5,11 +5,10 @@
   "license": "ISC",
   "author": "Soichiro",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "parcel": "^2.16.4",
