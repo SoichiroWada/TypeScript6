@@ -15,7 +15,6 @@ export class DataResource<T> {
         const res = await fetch(`${this.endpoint}/${id}`, {
             method: 'DELETE',
         })
-
         return res
     }
     async save(data: T): Promise<Response> {
@@ -24,7 +23,6 @@ export class DataResource<T> {
             body: JSON.stringify(data),
             headers: { 'Content-Type': 'application/json' },
         })
-
         return res
     }
 }

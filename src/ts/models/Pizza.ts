@@ -10,10 +10,3 @@ export interface PizzaProps {
 export const Pizza = new DataResource<PizzaProps>(
 	'http://localhost:3000/pizzas'
 )
-
-// Pizza.save({
-// 	title: 'my new pizza',
-// 	description: 'yummy',
-// 	toppings: ['mushrooms', 'peppers', 'olives'],
-// 	price: 10,
-// })
