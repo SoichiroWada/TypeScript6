@@ -8,5 +8,5 @@ export interface PizzaProps {
 }
 
 export const Pizza = new DataResource<PizzaProps>(
-	'http://localhost:3000/pizzas'
+	'http://192.168.1.68:3000/pizzas'
 )

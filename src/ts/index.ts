@@ -1,4 +1,4 @@
-import { Pizza, PizzaProps } from './models/Pizza.js'
+import { Pizza, type PizzaProps } from './models/Pizza.js'
 
 const rootElement = document.querySelector('.root')!
 
