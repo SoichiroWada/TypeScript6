@@ -1,6 +1,7 @@
 import { Pizza, type PizzaProps } from './models/Pizza.js'
 
 const form = document.querySelector('.create') as HTMLFormElement
+console.log(form)
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault()
