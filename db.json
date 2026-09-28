@@ -1,0 +1,39 @@
+{
+  "pizzas": [
+    {
+      "title": "Mario Special",
+      "description": "An extra cheesy pizza on a thin and crispy base, loaded with olives and mushrooms.",
+      "toppings": ["mushrooms", "olives"],
+      "price": 12,
+      "id": 1
+    },
+    {
+      "title": "Luigi Owa Special",
+      "description": "Peppers and mushrooms on a Luigi-special garlic base, with bbq sauce instead of the usual tomato.",
+      "toppings": ["mushrooms", "peppers"],
+      "price": 10,
+      "id": 2
+    },
+    {
+      "title": "Peach's Aloha Hawaiian",
+      "description": "A fruity combination of pineapply, sweetorn and mushrooms on a light, thin base.",
+      "toppings": ["pineapple"],
+      "price": 15,
+      "id": 3
+    },
+    {
+      "title": "Manhattan Cafe",
+      "description": "Coffee beans and an extra cheesy pizza on a thin and crispy base, loaded with olives and mushrooms.",
+      "toppings": ["cofee beans", "mushrooms", "olives"],
+      "price": 20,
+      "id": 4
+    },
+    {
+      "title": "Mexican Hot Mad Chilly",
+      "description": "Super hot peppers and mushrooms on a Luigi-special fat garlic base, with bbq sauce instead of the usual tomato.",
+      "toppings": ["super hot source","mushrooms", "peppers"],
+      "price": 35,
+      "id": 5
+    }
+  ]
+}
