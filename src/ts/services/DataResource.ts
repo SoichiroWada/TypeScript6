@@ -8,12 +8,12 @@ export class DataResource<T> {
 
         return res.json()
     }
-    async loadOne(id: number): Promise<T> {
+    async loadOne(id: string): Promise<T> {
         const res = await fetch(`${this.endpoint}/${id}`)
 
         return res.json()
     }
-    async delete(id: number): Promise<Response> {
+    async delete(id: string): Promise<Response> {
         const res = await fetch(`${this.endpoint}/${id}`, {
             method: 'DELETE',
         })

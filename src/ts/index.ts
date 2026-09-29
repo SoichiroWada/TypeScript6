@@ -4,14 +4,14 @@ const rootElement = document.querySelector('.root')!
 
 function createPizzaTemplate(pizza: PizzaProps): string {
 	return `
-	<link href="pizza_detail.html" rel="page">
+    <a href="pizza_detail.html?id=${pizza.id}">
 		<div class="pizza">
 			<h2>${pizza.title}...</h2>
 			<p class="toppings">${pizza.toppings.join(', ')}</p>
 			<p>${pizza.description}</p>
 			<span>£${pizza.price}</span>
 		</div>
-	</link>
+	</a>
   `
 }
 
