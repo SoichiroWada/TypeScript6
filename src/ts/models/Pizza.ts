@@ -5,8 +5,11 @@ export interface PizzaProps {
 	description: string
 	toppings: string[]
 	price: number
+	id: string
 }
 
 export const Pizza = new DataResource<PizzaProps>(
-	'http://192.168.1.68:3000/pizzas'
+	'http://192.168.1.68:4000/pizzas'
 )
+
+console.log('Pizza:', Pizza)

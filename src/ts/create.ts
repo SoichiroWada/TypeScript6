@@ -13,6 +13,7 @@ form.addEventListener('submit', async (e) => {
         description: data.get('description') as string,
         toppings: data.getAll('toppings') as string[],
         price: parseInt(data.get('price') as string),
+        id: "abcd" as string
     }
 
     const res = await Pizza.save(newPizza)

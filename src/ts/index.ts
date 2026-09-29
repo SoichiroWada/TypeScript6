@@ -4,12 +4,14 @@ const rootElement = document.querySelector('.root')!
 
 function createPizzaTemplate(pizza: PizzaProps): string {
 	return `
-    <div class="pizza">
-      <h2>${pizza.title}...</h2>
-      <p class="toppings">${pizza.toppings.join(', ')}</p>
-      <p>${pizza.description}</p>
-      <span>£${pizza.price}</span>
-    </div>
+	<link href="pizza_detail.html" rel="page">
+		<div class="pizza">
+			<h2>${pizza.title}...</h2>
+			<p class="toppings">${pizza.toppings.join(', ')}</p>
+			<p>${pizza.description}</p>
+			<span>£${pizza.price}</span>
+		</div>
+	</link>
   `
 }
 
@@ -26,10 +28,10 @@ function renderTemplates(templates: string[], parent: Element): void {
 document.addEventListener('DOMContentLoaded', async () => {
 	// load the pizza data
 	const pizzas = await Pizza.loadAll()
-
+	console.log("pizzas:",pizzas)
 	// create template string for each pizza
 	const pizzaTemplates = pizzas.map(createPizzaTemplate)
-
+	console.log("pizzaTemplates:",pizzaTemplates)
 	// render pizza templates to DOM
 	renderTemplates(pizzaTemplates, rootElement)
 })

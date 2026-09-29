@@ -1,5 +1,7 @@
 export class DataResource<T> {
-    constructor(private endpoint: string) { }
+    constructor(private endpoint: string) {
+        console.log("endpoint:", endpoint)
+    }
 
     async loadAll(): Promise<T[]> {
         const res = await fetch(this.endpoint)
