@@ -5,7 +5,7 @@ export interface PizzaProps {
 	description: string
 	toppings: string[]
 	price: number
-	id: string
+	id?: string
 }
 
 export const Pizza = new DataResource<PizzaProps>(

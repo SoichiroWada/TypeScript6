@@ -93,6 +93,27 @@
       ],
       "price": 88,
       "id": "A1cWSLkukGc"
+    },
+    {
+      "title": "PIZZA TEST",
+      "description": "NSDFAdfgdsfgasdfg",
+      "toppings": [
+        "mushrooms",
+        "pineapple"
+      ],
+      "price": 999,
+      "id": "mCo0xPJzRkw"
+    },
+    {
+      "title": "Wandaraco",
+      "description": "\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through w",
+      "toppings": [
+        "mushrooms",
+        "olives",
+        "pineapple"
+      ],
+      "price": 280,
+      "id": "o-b-q7lzBwU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

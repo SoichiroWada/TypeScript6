@@ -4,7 +4,7 @@ const rootElement = document.querySelector('.root')!
 
 function createPizzaTemplate(pizza: PizzaProps): string {
 	return `
-    <a href="pizza_detail.html?id=${pizza.id}">
+    <a href="pizza_detail.html?id=${pizza.id}" class="pizza-link">
 		<div class="pizza">
 			<h2>${pizza.title}...</h2>
 			<p class="toppings">${pizza.toppings.join(', ')}</p>

@@ -84,3 +84,15 @@ button {
   font-family: "Poppins";
   cursor: pointer;
 }
+
+.pizza-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.pizza-link:hover .pizza {
+  cursor: pointer;
+  opacity: 1.0;
+  background: rgb(198, 241, 248);
+}
