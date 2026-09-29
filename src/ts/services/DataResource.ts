@@ -35,7 +35,6 @@ export class DataResource<T> {
                 'Content-Type': 'application/json',
             },
         })
-
         return res
     }
 }
