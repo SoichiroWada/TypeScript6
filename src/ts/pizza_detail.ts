@@ -2,17 +2,6 @@ import { Pizza, type PizzaProps } from './models/Pizza.js'
 
 const rootElement = document.querySelector('.root')!
 
-// function createPizzaTemplate(pizza: PizzaProps): string {
-//     return `
-//     <div class="pizza">
-//       <h2>${pizza.title}</h2>
-//       <p class="toppings">${pizza.toppings.join(', ')}</p>
-//       <p>${pizza.description}</p>
-//       <span>£${pizza.price}</span>
-//     </div>
-//   `
-// }
-
 function createPizzaTemplate(pizza: PizzaProps): string {
   return `
     <div class="pizza-detail">
@@ -32,14 +21,19 @@ function createPizzaTemplate(pizza: PizzaProps): string {
         <h3>Price</h3>
         <p class="detail-price">£${pizza.price}</p>
       </div>
+      
+      <div class="detail-actions">
+        <button class="edit-btn">EDIT</button>
+        <button class="delete-btn">DELETE</button>
+      </div>
     </div>
   `
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search)
-
   const id = params.get('id')
+  console.log("id:",id)
 
   if (!id) {
     rootElement.innerHTML = '<p>Pizza ID not found.</p>'
@@ -47,6 +41,28 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   const pizza = await Pizza.loadOne(id)
-
   rootElement.innerHTML = createPizzaTemplate(pizza)
+
+  const editButton = document.querySelector('.edit-btn') as HTMLButtonElement
+  const deleteButton = document.querySelector('.delete-btn') as HTMLButtonElement
+
+  editButton.addEventListener('click', () => {
+    window.location.href = `pizza_edit.html?id=${id}`
+  })
+
+  deleteButton.addEventListener('click', async () => {
+    const confirmed = confirm(`Delete "${pizza.title}"?`)
+
+    if (!confirmed) {
+      return
+    }
+
+    const res = await Pizza.delete(id)
+
+    if (res.ok) {
+      window.location.href = '/'
+    } else {
+      console.log('Unable to delete pizza')
+    }
+  })
 })

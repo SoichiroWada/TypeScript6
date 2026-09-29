@@ -74,16 +74,6 @@
       "id": "XEKj_0eQQnU"
     },
     {
-      "title": "Pizza Margherita",
-      "description": "Pizza Margherita, also known as Margherita pizza,[1] is, together with the pizza marinara, the typical Neapolitan pizza. It is roundish in shape with a raised edge (the cornicione) and seasoned with hand-crushed peeled tomatoes, mozzarella (buffalo mozzarella or fior di latte), fresh basil leaves, and extra virgin olive oil.[2][3] The do",
-      "toppings": [
-        "peppers",
-        "olives"
-      ],
-      "price": 66,
-      "id": "rPdhCgjtsvk"
-    },
-    {
       "title": "Neapolitan pizza",
       "description": "Neapolitan pizza (Italian: pizza napoletana; Neapolitan: pizza napulitana) is the version of the round pizza typically prepared in the Italian city of Naples and characterised by a soft, thin dough with high edges.[1] The tomatoes are traditionally ",
       "toppings": [
@@ -93,16 +83,6 @@
       ],
       "price": 88,
       "id": "A1cWSLkukGc"
-    },
-    {
-      "title": "PIZZA TEST",
-      "description": "NSDFAdfgdsfgasdfg",
-      "toppings": [
-        "mushrooms",
-        "pineapple"
-      ],
-      "price": 999,
-      "id": "mCo0xPJzRkw"
     },
     {
       "title": "Wandaraco",

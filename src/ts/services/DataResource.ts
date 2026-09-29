@@ -27,4 +27,15 @@ export class DataResource<T> {
         })
         return res
     }
+    async update(id: string, data: Partial<T>): Promise<Response> {
+        const res = await fetch(`${this.endpoint}/${id}`, {
+            method: 'PATCH',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+
+        return res
+    }
 }
