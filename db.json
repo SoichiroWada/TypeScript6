@@ -52,7 +52,7 @@
       "id": "5"
     },
     {
-      "title": "Bundoka galia ondore",
+      "title": "Bundoka Galia Ondore Donvan Gubgubu",
       "description": "\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I ter conse",
       "toppings": [
         "peppers",
@@ -98,8 +98,8 @@
       "id": "MM6PGJqZcWg"
     },
     {
-      "title": "Universal Spacial Pizza",
-      "description": "Extra large size as 10million times larger than Large Size.",
+      "title": "Stella Pizza",
+      "description": "Extra large size as 10 billion times larger than Large Size.\ntself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborio",
       "toppings": [
         "mushrooms",
         "peppers",
@@ -107,12 +107,12 @@
         "olives",
         "pineapple"
       ],
-      "price": 96800000000,
+      "price": 98451549032115980,
       "id": "iIZfytzb3jQ"
     },
     {
       "title": "New Pizza Milano",
-      "description": "illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, conse",
+      "description": "illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, conse e placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum n",
       "toppings": [
         "peppers",
         "olives",
@@ -120,6 +120,16 @@
       ],
       "price": 8850,
       "id": "ncy0hPx19SE"
+    },
+    {
+      "title": "Pizza in Finibus Bonorum et Malorum",
+      "description": "pturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut r",
+      "toppings": [
+        "peppers",
+        "sweetcorn"
+      ],
+      "price": 80,
+      "id": "4zr9VXVg8ek"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

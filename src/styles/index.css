@@ -162,3 +162,14 @@ button {
 .delete-btn {
   background: #c0392b;
 }
+
+.edit button {
+  display: block;
+  width: 130px;
+  margin: 20px auto 0;
+}
+
+.edit textarea[name="description"] {
+  min-height: 180px;
+  resize: vertical;
+}
