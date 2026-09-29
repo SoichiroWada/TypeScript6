@@ -93,6 +93,55 @@ button {
 
 .pizza-link:hover .pizza {
   cursor: pointer;
-  opacity: 1.0;
+  opacity: 1;
   background: rgb(198, 241, 248);
+}
+
+/* Pizza detail page */
+
+.pizza-detail-root {
+  display: block;
+}
+
+.pizza-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #d8d8d8;
+  box-sizing: border-box;
+}
+
+.pizza-detail h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.detail-section {
+  margin-bottom: 25px;
+}
+
+.detail-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.detail-section p {
+  background: #eceaea;
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.description-section .detail-description {
+  min-height: 150px;
+}
+
+.detail-price {
+  font-weight: bold;
+  font-size: 1.3em !important;
 }
