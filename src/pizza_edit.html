@@ -12,8 +12,54 @@
       <a href="/" class="btn">Back to Menu</a>
     </nav>
 
-    <main class="root wrap edit-pizza-root">
-      <!-- pizza detail goes here -->
+    <main class="wrap">
+      <form class="edit">
+        <label>
+          <span>Title:</span>
+          <input type="text" name="title" required />
+        </label>
+
+        <label>
+          <span>Description:</span>
+          <textarea name="description" required></textarea>
+        </label>
+
+        <fieldset>
+          <legend>Choose toppings:</legend>
+
+          <label>
+            <input type="checkbox" name="toppings" value="mushrooms" />
+            <span>mushrooms</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="toppings" value="peppers" />
+            <span>peppers</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="toppings" value="sweetcorn" />
+            <span>sweetcorn</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="toppings" value="olives" />
+            <span>olives</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="toppings" value="pineapple" />
+            <span>pineapple</span>
+          </label>
+        </fieldset>
+
+        <label>
+          <span>Price:</span>
+          <input type="number" name="price" required />
+        </label>
+
+        <button>Save Changes</button>
+      </form>
     </main>
 
     <script src="./ts/pizza_edit.ts" type="module"></script>
